@@ -1,0 +1,29 @@
+How to Make Default Sounds
+
+
+1. Delete the sounds you no longer want from "Supporting Files / Default Sounds".  Delete the files as well as the references.  The numbers must be contiguous, so rename the files as necessary.  There's probably an order, but it's not really important at this time.
+
+2. Select a simulator to use to save the default sounds.  Go to the directory and delete all the sounds.
+
+/Users//Library/Application Support/iPhone Simulator/User/Applications//Documents
+
+3. Go to the SQL Management Studio for the dev database and make sure the "sound_disabled_date" is null for all the sounds that you want to save as a default sound.
+
+3.5 Upload all the sounds/icons you want to save using the webpage.
+
+3.7 In XCode, "Clean" the project.  This removes extra files from the project directory/bundle apparently.
+
+4. Launch the simulator and make sure it's pointed to the dev server.
+
+5. Select the sound that you want to save as default, and hold down the icon, and choose save as deployment sound.
+
+6. When done with the sounds, exit the simulator and go to the directory from step #2.
+
+7. Drag all the new sounds into the XCode project directory from step #1.  Be sure to check the option to copy the files to destination folder.
+
+7.5 Update the constant NUMBER_OF_DEPLOYMENT_SOUNDS to match the amount of default sounds that exist.
+
+8. Back in SQL mgmt studio, mark the sounds as disabled by putting a date into the field.
+
+9. Test it by deleting the app from the simulator and the directory from #2.
+

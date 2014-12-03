@@ -1,0 +1,118 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww9000\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\f0\b\fs24 \cf0 Otamata Todo List\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\b0 \cf0 \
+(difficulty)\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\b \cf0 Must Do - version 1.3\
+\
+* 
+\b0 Testing - different length strings (especially max length)\
+\
+* Upload with progress - look ok?\
+\
+\
+
+\b Maybe Must Do, But Definitely Eventually Do
+\b0 \
+\
+* Help screen - take out 1.0 version, put in a transparent overlay?\
+\
+* About page - show current version and their version\
+\
+* Add purchase/store button to settings page\
+\
+* Allow to change icon on main screen to an icon from the users's library, or any other sound's icon (hard)\
+\
+* Add icon to top right nav bar of the player showing current volume, or volume slider at bottom of player like in ipod app (hard)\
+\
+* Add spinny icon to main status bar when doing network stuff\
+\
+* Set volume to at least 0.5 at FIRST startup so people aren't confused if they don't hear anything (medium, 1/2 done)\
+
+\b \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\b0 \cf0 * When sound won't play - pop message (e.g. "Rustlers")\
+\
+* Add the latest sound detail info to the sound detail view controller (at least downloads and rating)  (easy) \
+\
+* Phone home: on startup, have background thread query the server w/UUID, app/build version.  If message, display it (hard).  Examples:\
+- "There's a new version available.  Fixes include...  Download it here:"\
+- "Rate this app?"  (only if UUID has been used over a period of 10 days.  Examine the usage patterns I guess.) \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\b \cf0 \
+Eventually Do
+\b0 \
+\
+* Add sound titles below icons on main screen.  Configurable in settings.  (hard)\
+\
+* Admin version - only shows for certain UUIDs  (medium)\
+\
+* See if there's a way to adjust the volume w/o having the overlay appear (maybe impossible, maybe easy)\
+\
+\
+
+\b Completed
+\b0 \
+\
+* Add prompt to rate the application after a few launches\
+\
+* Send sound to someone via SMS (create url on server, send url via sms, recipient clicks url - plays sound)\
+\
+* record own sound, choose any icon for it\
+\
+* Increase performance of the scrolling market cells (easy)\
+\
+* Email Us - add users's info to main body, not an attachment. (easy)\
+\
+* Store UUID in keychain.   This will be used on the server. (easy)\
+\
+* Play sound at slider volume - configurable in settings.  (hard)\
+\
+* Implement in-app purchasing.  $0.99 for 10, $1.99 for 20, $4.99 for unlimited d/ls  (hard)\
+\
+* After purchase, make sure sound detail screen is updated with the correct number of credits\
+\
+* Purchase type that most matches this type: "Content" / "Consumable".  This cannot be restored automatically by store kit - so be sure to tell user to back up their purchase.\
+\
+* Decide if sounds will have > 1 credit - ever.  If not, remove concept.  If so, build out the functionality now.  (easy/medium)  *** changed in-app language to say "credits"\
+\
+* Pass program version and build version with requests (easy)\
+\
+* Add icons to everything (hard)\
+\
+* Search source code for all "todo" statements (medium)\
+\
+* Pass UUID to server during purchase.  Then, in response, server will show the number of credits left.  Set this value locally regardless of what it currently is.   What if Otamata is down or network connection issues? (medium)\
+* Or - encrypt the number of credits and store in keychain\
+* Or - just store # of credits in keychain.  If someone hacks - oh well.  Get users to update to new version if this becomes an issue.  Send MD5 hash of the version/build to server?\
+\
+\
+\
+\
+\
+
+\b In-App Purchase Notes
+\b0 \
+\
+http://developer.apple.com/library/ios/#documentation/NetworkingInternet/Conceptual/StoreKitGuide/APIOverview/OverviewoftheStoreKitAPI.html#//apple_ref/doc/uid/TP40008267-CH100-SW1\
+\
+\pard\pardeftab720\ql\qnatural
+
+\f1\b \cf0 Consumable
+\b0  products must be purchased each time the user needs that item. For example, one-time services are commonly implemented as consumable products.
+\f0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf0 \
+}
