@@ -15,13 +15,60 @@ There's a backend API supporting the app as well, written in C#.  If it's not on
 Description
 -----------
 
-The whole point is to play funny sound effects quickly from the home screen.  
+Enjoy some screenshots of the various screens. 
 
-<table border="0">
+<table cellpadding="10">
 
 <tr>
-<td><img src="Screenshots/ss-main-no-ad.png" alt="Screenshot" width="200"/></td>
+<td width="200"><img src="Screenshots/ss-main-no-ad.png" alt="Screenshot" width="200"/></td>
 <td>The main screen lets you play the perfect sound quickly from your library.</td>
+</tr>
+
+<tr>
+<td><img src="Screenshots/ss-main-ad.png" alt="Screenshot" width="200"/></td>
+<td>Those who preferred not to support their friendly neighborhood app developer with a $0.99 in-app purchase saw some ads on the homescreen!</td>
+</tr>
+
+<tr>
+<td><img src="Screenshots/ss-browse.png" alt="Screenshot" width="200"/></td>
+<td>You can search the sound database by title or a few other options.</td>
+</tr>
+
+<tr>
+<td><img src="Screenshots/ss-download.png" alt="Screenshot" width="200"/></td>
+<td>If you like the sound you're browsing, you can add it to your library or report it as inappropriate.</td>
+</tr>
+
+<tr>
+<td><img src="Screenshots/ss-websearch.png" alt="Screenshot" width="200"/></td>
+<td>One feature in the newest release that wasn't approved by Apple is the websearch.  This allowed the user to search
+the interwebs for MP3 and WAV clips based on a text search.  This was much easier than having to upload sounds through
+the webite.</td>
+</tr>
+
+<tr>
+<td><img src="Screenshots/ss-icon-websearch.png" alt="Screenshot" width="200"/></td>
+<td>Once you found a clip you liked on the web, you could also do an image search to find a nice icon.  There's also a nice image cropping screen in the app (not shown), which had to be CUSTOM MADE, since (at the time) the built-in image cropper in iOS was private and not accessible to developers.</td>
+</tr>
+
+<tr>
+<td><img src="Screenshots/ss-record-save.png" alt="Screenshot" width="200"/></td>
+<td>Once you're happy with your searched sound, you can go ahead and save it with a nice title and description.</td>
+</tr>
+
+<tr>
+<td><img src="Screenshots/ss-record.png" alt="Screenshot" width="200"/></td>
+<td>You can also record your own sounds inside the app, up to 7 seconds.  These can be private to you, or shared with the sound community.</td>
+</tr>
+
+<tr>
+<td><img src="Screenshots/ss-sharing.png" alt="Screenshot" width="200"/></td>
+<td>What could possibly be more fun than sending the perfect sound effect to your friends!  Press and hold an icon on the main screen to share it (and do some more things, like delete it or rate it 1-5 stars).</td>
+</tr>
+
+<tr>
+<td><img src="Screenshots/ss-intro-help-1.png" alt="Screenshot" width="200"/></td>
+<td>Otamata could not be easier to use, but we still included a brief tutorial for the user when it's first installed.</td>
 </tr>
 
 
