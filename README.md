@@ -15,7 +15,7 @@ There's a backend API supporting the app as well, written in C#.  If it's not on
 Description
 -----------
 
-Enjoy some screenshots of the various UIControllers that make up the Otamata iOS app. 
+Enjoy some screenshots of the various UIViewControllers that make up the Otamata iOS app. 
 
 <table cellpadding="10">
 
