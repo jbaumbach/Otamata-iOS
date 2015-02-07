@@ -17,4 +17,14 @@ Description
 
 The whole point is to play funny sound effects quickly from the home screen.  
 
-<img src="Screenshots/ss-main-no-ad.png" alt="Screenshot" width="200"/>
+<table border="0">
+
+<tr>
+<td><img src="Screenshots/ss-main-no-ad.png" alt="Screenshot" width="200"/></td>
+<td>The main screen lets you play the perfect sound quickly from your library.</td>
+</tr>
+
+
+</table>
+
+
