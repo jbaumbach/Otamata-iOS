@@ -3,14 +3,19 @@ Otamata-iOS
 
 Otamata iOS application
 -----------------------
+The Otamata app lets you play funny sound effects for your friends.  I got the idea one night when hanging out with one of my friends, let's call him "Todd", who was was still in the habit of saying "That's what she said!" every time you accidentially made a comment about how big something was.  You know that old yarn.  Anyway, I thought to myself, between beers, how awesome it would be to play a "crickets..." sound effect after one of his less successful attempts.  Having an iPhone at the time, it seemed like a good idea to make an iPhone app.
 
-The source code is here mostly for academic purposes.  
+Not ever having coded in Objective-C, there was a bit of a learning curve.  What are these bizarre brackets?  And function calls that weren't really function calls but "messages"?  And why would my app just suddenly disappear if I counted references wrong??  And I thought "zombies" where only something I only had to worry about when watching The Walking Dead!
+
+Anyway, a couple months later and the first version was in the Apple app store.  It got approved for a few subsequent updates as well, but ultimately my last update was NOT approved and basically the project was dead.
+
+The source code is here mostly for academic purposes.  Perhaps someone might find it useful, or perhaps I just need validation that 9 months of late night and weekend development wasn't completely in vain.  :(
 
 Unfortunately, there is some sensitive data in the config.h file, so it's not included here.  So this probably won't compile.  Let me know if you need a version and I can try to create one.
 
-This version of the app failed to be approved by Apple for the app store, although the previous version is currently in the app store.
-
 There's a backend API supporting the app as well, written in C#.  If it's not on Github yet, please check back soon. 
+
+There's also a website, I'll try to get that here too.
 
 Description
 -----------
