@@ -13,9 +13,8 @@ The source code is here mostly for academic purposes.  Perhaps someone might fin
 
 Unfortunately, there is some sensitive data in the config.h file, so it's not included here.  So this probably won't compile.  Let me know if you need a version and I can try to create one.
 
-There's a backend API supporting the app as well, written in C#.  If it's not on Github yet, please check back soon. 
+There's a [backend API and website supporting the app](https://github.com/jbaumbach/Otamata-API-Web) as well, written in C#.
 
-There's also a website, I'll try to get that here too.
 
 Description
 -----------
