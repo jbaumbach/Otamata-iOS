@@ -5,7 +5,7 @@ Otamata iOS application
 -----------------------
 The Otamata app lets you play funny sound effects for your friends.  I got the idea one night when hanging out with one of my friends, let's call him "Todd", who was was still in the habit of saying "That's what she said!" every time you accidentially made a comment about how big something was.  You know that old yarn.  Anyway, I thought to myself, between beers, how awesome it would be to play a "crickets..." sound effect after one of his less successful attempts.  Having an iPhone at the time, it seemed like a good idea to make an iPhone app.
 
-Not ever having coded in Objective-C, there was a bit of a learning curve.  What are these bizarre brackets?  And function calls that weren't really function calls but "messages"?  And why would my app just suddenly disappear if I counted references wrong??  And I thought "zombies" where only something I only had to worry about when watching The Walking Dead!
+Not ever having coded in Objective-C, there was a bit of a learning curve.  What are these bizarre brackets?  And function calls that weren't really function calls but "messages"?  And why would my app just suddenly disappear if I counted references wrong??  And I thought "zombies" where only something I only had to worry about when watching "The Walking Dead"!
 
 Anyway, a couple months later and the first version was in the Apple app store.  It got approved for a few subsequent updates as well, but ultimately my last update was NOT approved and basically the project was dead.
 
@@ -24,7 +24,7 @@ Enjoy some screenshots of the various UIViewControllers that make up the Otamata
 <table cellpadding="10">
 
 <tr>
-<td width="200"><img src="Screenshots/ss-main-no-ad.png" alt="Screenshot" /></td>
+<td width="280"><img src="Screenshots/ss-main-no-ad.png" alt="Screenshot" /></td>
 <td>The main screen lets you play the perfect sound quickly from your library.</td>
 </tr>
 
