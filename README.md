@@ -3,18 +3,19 @@ Otamata-iOS
 
 Otamata iOS application
 -----------------------
-The Otamata app lets you play funny sound effects for your friends.  I got the idea one night when hanging out with one of my friends, let's call him "Todd", who was was still in the habit of saying "That's what she said!" every time you accidentially made a comment about how big something was.  You know that old yarn.  Anyway, I thought to myself, between beers, how awesome it would be to play a "crickets..." sound effect after one of his less successful attempts.  Having an iPhone at the time, it seemed like a good idea to make an iPhone app.
+The Otamata app lets you play funny sound effects for your friends.  I got the idea one night when hanging out with one of my friends, let's call him "Todd", who was was still in the habit of saying "That's what she said!" after any potentially fitting statement.  You know that old yarn.  Anyway, I thought to myself how awesome it would be to play a "crickets..." sound effect after one of his less successful attempts.  Having an iPhone at the time, it seemed like a good idea to make an iPhone app.
 
-Not ever having coded in Objective-C, there was a bit of a learning curve.  What are these bizarre brackets?  And function calls that weren't really function calls but "messages"?  And why would my app just suddenly disappear if I counted references wrong??  And I thought "zombies" where only something I only had to worry about when watching "The Walking Dead"!
+Not ever having coded in Objective-C, there was a bit of a learning curve.  I had to learn the many square brackets, re-learn reference counting, and deal with things called "zombies" when you release too many references.
 
 Anyway, a couple months later and the first version was in the Apple app store.  It got approved for a few subsequent updates as well, but ultimately my last update was NOT approved and basically the project was dead.
 
-The source code is here mostly for academic purposes.  Perhaps someone might find it useful, or perhaps I just need validation that 9 months of late night and weekend development wasn't completely in vain.  :(
+The source code is here mostly for academic purposes.  Perhaps someone might find it useful.
 
-Unfortunately, there is some sensitive data in the config.h file, so it's not included here.  So this probably won't compile.  Let me know if you need a version and I can try to create one.
+Unfortunately, there is some sensitive data in the config.h file relating to the backend API, so it's not included here.  So this probably won't compile.  Let me know if you need a version and I can try to create one.
 
 There's a [backend API and website supporting the app](https://github.com/jbaumbach/Otamata-API-Web) as well, written in C#.
 
+The website should still be live: [http://www.otamata.com/](http://www.otamata.com/)
 
 Description
 -----------
